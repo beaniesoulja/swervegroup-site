@@ -1,8 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="#163b2d"/>
-  <g fill="none" stroke="#fcfcf9" stroke-width="23" stroke-linejoin="round" stroke-linecap="round">
-    <path d="M181 210c-12-13-27-17-42-10-19 9-25 29-25 56s6 47 25 56c15 7 30 3 42-10"/>
-    <path d="M215 218c3-16 16-24 31-24 21 0 34 11 34 29 0 16-11 28-27 42l-38 43h66" stroke="#9ee8b6"/>
-    <path d="M319 308V204l78 104V204"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="CardToNaira">
+  <rect width="1024" height="1024" fill="#061f26"/>
+  <path d="M512 144 790 248 760 556C742 652 600 728 512 762 424 728 282 652 264 556L234 248Z" fill="#66d9b0"/>
+  <g fill="#061f26">
+    <rect x="398" y="322" width="52" height="330"/>
+    <rect x="574" y="322" width="52" height="330"/>
+    <polygon points="450,322 502,322 626,652 574,652"/>
+    <rect x="374" y="424" width="276" height="32"/>
+    <rect x="374" y="500" width="276" height="32"/>
   </g>
 </svg>

@@ -23,14 +23,13 @@
 
   /* accent marks only */
   --graphite:  #1d1d1f;
-  --green:     #0f6b4d;
+  --teal:      #0f766e;
   --amber:     #97530f;
 
   --focus:     #0071e3;
 
   --sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
           "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --serif: "New York", "Iowan Old Style", Palatino, Georgia, serif;
 
   --ease: cubic-bezier(.28,.72,.24,1);
   --radius: 28px;
@@ -182,7 +181,7 @@ p{ text-wrap: pretty; }
   color:var(--dim); font-weight:500; margin-bottom:24px;
 }
 .pulse-dot{
-  width:6px; height:6px; border-radius:50%; background:var(--green);
+  width:6px; height:6px; border-radius:50%; background:var(--teal);
 }
 
 .hero-title{
@@ -194,10 +193,8 @@ p{ text-wrap: pretty; }
   margin-inline:auto;
 }
 .hero-title em{
-  font-family:var(--serif);
-  font-style:italic;
-  font-weight:400;
-  letter-spacing:-.02em;
+  font:inherit;
+  letter-spacing:inherit;
 }
 
 .hero-sub{
@@ -253,7 +250,7 @@ p{ text-wrap: pretty; }
 .sub-chip:hover{ border-color:var(--hair); transform:translateY(-1px); }
 .chip-dot{ width:7px; height:7px; border-radius:50%; }
 .chip-dot.graphite{ background:var(--graphite); }
-.chip-dot.green{ background:var(--green); }
+.chip-dot.teal{ background:var(--teal); }
 
 /* ============================================================
    SECTIONS
@@ -274,7 +271,8 @@ p{ text-wrap: pretty; }
 .vision-title em,
 .contact-title em,
 .venture-tagline em{
-  font-family:var(--serif); font-style:italic; font-weight:400;
+  font:inherit;
+  font-style:normal;
 }
 
 /* centred section headers */
@@ -353,7 +351,7 @@ p{ text-wrap: pretty; }
 }
 .photo-fallback{ position:absolute; inset:0; display:grid; place-items:center; }
 .photo-fallback span{
-  font-family:var(--serif); font-style:italic;
+  font:inherit;
   font-size:clamp(3rem,8vw,5rem); color:#c7c7cc;
 }
 .founder-photo figcaption{
@@ -377,7 +375,7 @@ p{ text-wrap: pretty; }
   display:flex; flex-direction:column; gap:4px;
 }
 .sig-name{
-  font-family:var(--serif); font-style:italic;
+  font:inherit;
   font-size:clamp(1.25rem,2vw,1.6rem); color:var(--ink);
 }
 .sig-role{ font-size:11.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--faint); }
@@ -404,7 +402,7 @@ p{ text-wrap: pretty; }
   box-shadow:0 12px 32px -18px rgba(0,0,0,.25);
 }
 .venture-card.music{ --accent:var(--graphite); }
-.venture-card.tech{ --accent:var(--green); }
+.venture-card.tech{ --accent:var(--teal); }
 .venture-card.gaming{ --accent:var(--amber); }
 
 .venture-top{ display:flex; align-items:center; justify-content:space-between; }
