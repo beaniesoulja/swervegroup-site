@@ -77,25 +77,6 @@
     revealEls.forEach(function (el) { io.observe(el); });
   }
 
-  /* ---------- subtle parallax on hero mark ---------- */
-  var heroMark = document.querySelector(".hero-mark");
-  if (heroMark && !reduceMotion) {
-    var ticking = false;
-    window.addEventListener(
-      "scroll",
-      function () {
-        if (ticking) return;
-        ticking = true;
-        requestAnimationFrame(function () {
-          var y = Math.min(window.scrollY, window.innerHeight);
-          heroMark.style.transform =
-            "translateY(calc(-50% + " + y * 0.12 + "px)) rotate(-4deg)";
-          ticking = false;
-        });
-      },
-      { passive: true }
-    );
-  }
 
   /* ---------- smooth anchor offset for fixed nav ---------- */
   document.querySelectorAll('a[href^="#"]').forEach(function (a) {
@@ -107,7 +88,7 @@
       var target = document.querySelector(id);
       if (!target) return;
       e.preventDefault();
-      var top = target.getBoundingClientRect().top + window.scrollY - 86;
+      var top = target.getBoundingClientRect().top + window.scrollY - 72;
       window.scrollTo({ top: top, behavior: reduceMotion ? "auto" : "smooth" });
     });
   });
