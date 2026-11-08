@@ -6,9 +6,9 @@
 
 :root{
   /* surfaces */
-  --bg:        #fbfbfd;
+  --bg:        #fbfbfa;
   --surface:   #ffffff;
-  --band:      #f5f5f7;
+  --band:      #f5f4f0;
 
   /* ink */
   --ink:       #1d1d1f;
@@ -17,7 +17,7 @@
   --faint:     #6a6a70;
 
   /* lines */
-  --hair:      #d2d2d7;
+  --hair:      #d8d5cf;
   --line:      rgba(0,0,0,.10);
   --line-soft: rgba(0,0,0,.06);
 
@@ -115,7 +115,7 @@ p{ text-wrap: pretty; }
    ============================================================ */
 .nav{
   position:fixed; inset:0 0 auto 0; z-index:100;
-  background:rgba(251,251,253,.72);
+  background:rgba(251,251,250,.72);
   backdrop-filter:blur(20px) saturate(180%);
   -webkit-backdrop-filter:blur(20px) saturate(180%);
   border-bottom:1px solid transparent;
@@ -576,7 +576,7 @@ p{ text-wrap: pretty; }
   .nav-links{
     position:absolute; top:56px; left:0; right:0;
     flex-direction:column; gap:0;
-    background:rgba(251,251,253,.98);
+    background:rgba(251,251,250,.98);
     backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);
     border-bottom:1px solid var(--line-soft);
     padding:6px 24px 18px;
