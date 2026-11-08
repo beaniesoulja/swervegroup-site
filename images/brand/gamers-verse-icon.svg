@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Gamer's Verse">
+  <rect width="512" height="512" rx="116" fill="#9c5518"/>
+  <g fill="#f7eadb">
+    <rect x="128" y="222" width="44" height="132" rx="13"/>
+    <rect x="84" y="266" width="132" height="44" rx="13"/>
+    <circle cx="392" cy="232" r="22"/>
+    <circle cx="392" cy="328" r="22"/>
+    <circle cx="344" cy="280" r="22"/>
+    <circle cx="440" cy="280" r="22"/>
+  </g>
+</svg>
